@@ -1,5 +1,5 @@
 ---
-name: 工程開發標準 (Engineering Standards)
+name: Engineering Standards
 description: 定義前端框架、組件命名規則、CSS 架構與代碼風格。
 ---
 

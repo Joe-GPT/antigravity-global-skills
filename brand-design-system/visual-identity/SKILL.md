@@ -1,5 +1,5 @@
 ---
-name: 視覺識別系統 (Visual Identity)
+name: Visual Identity
 description: 定義品牌顏色、字體、Logo 使用規範與視覺風格。
 ---
 

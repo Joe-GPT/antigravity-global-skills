@@ -1,5 +1,5 @@
 ---
-name: 品牌設計系統 (Brand Design System)
+name: Brand Design System
 description: 管理與調用品牌設計規範的核心 Skill。負責根據用戶需求路由至適當的子 Skill (視覺、工程、文案)。
 ---
 
