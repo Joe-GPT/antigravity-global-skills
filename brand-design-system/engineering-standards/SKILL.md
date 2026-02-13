@@ -26,16 +26,21 @@ description: 定義前端框架、組件命名規則、CSS 架構與代碼風格
 
 在編寫代碼時，請確認：
 
-- [ ] **框架一致性**：
-  - 是否遵循專案選定的 CSS 框架 (預設：Tailwind CSS / Vanilla CSS)？
-  - 避免使用 Inline Styles，優先使用 Utility Classes 或 CSS Modules。
+- [ ] **技術堆疊 (Tech Stack)**：
+  - **CSS 框架**: Tailwind CSS (優先) 或 Modern Vanilla CSS.
+  - **核心功能**: 必須支援 **Dark Mode** (預設).
+- [ ] **視覺特效實作**:
+  - **Glow Effects**: 使用 `box-shadow` 與 `filter: drop-shadow` 模擬霓虹發光.
+  - **Glassmorphism**: 使用 `backdrop-filter: blur()` 與半透明背景.
+  - **Animations**: 使用 CSS Keyframes 實現流線動態與 Hover 效果.
 - [ ] **命名規範**：
   - Class 命名是否具語意化 (BEM 或 Utility-first)？
-  - 變數命名是否清晰 (例如 `--primary-color` 而非 `--blue`)？
+  - 變數命名是否清晰 (例如 `--neon-blue`, `--deep-navy`)？
 - [ ] **組件複用**：
   - 是否遵循 DRY (Don't Repeat Yourself) 原則？
   - 是否將可複用的 UI 封裝為組件？
 - [ ] **響應式設計**：
+  - **Grid System**: 針對高密度資訊 (High-density information) 優化網格佈局.
   - 是否考慮了 Mobile-first 的斷點設定？
 
 ## 5. 格式標準

@@ -27,16 +27,21 @@ description: 定義品牌顏色、字體、Logo 使用規範與視覺風格。
 
 在進行視覺設計時，請確認：
 
-- [ ] **顏色 (Color)**：
-  - 是否使用了品牌定義的主色 (Primary) 與輔助色 (Secondary)？
+- [ ] **顏色 (Color Scheme)**：
+  - **背景基底**: Midnight Black (#0B0C10), Deep Navy (#1F2833).
+  - **核心點綴**: Neon Blue (#45A29E), Violet (#9D50BB) - 用於按鈕發光與流線效果.
+  - **文字顏色**: Web White (#E0E0E0), Muted Gray (#C5C6C7).
   - 顏色對比度是否符合無障礙標準 (Accessibility)？
+- [ ] **視覺風格 (Visual Style)**：
+  - **關鍵字**: Cyber-tech, Dynamic Lines, Glassmorphism, Glow Effects.
+  - 是否包含「磨砂玻璃感 (Frosted Glass)」與「動態流光」？
 - [ ] **字體 (Typography)**：
-  - 是否使用了指定的字體家族 (Font Family)？
-  - 標題 (H1-H6) 與內文 (Body) 的層級是否清晰？
+  - **標題 (Headings)**: Orbitron 或 Rajdhani (科技感/現代感).
+  - **內文 (Body)**: Inter 或 Roboto (易讀性/專業感).
 - [ ] **Logo 使用**：
-  - 是否使用了正確版本的 Logo (全彩/單色/反白)？
-  - 是否保留了足夠的安全邊距 (Clear Space)？
-  - **注意**：Logo 檔案位於 `../assets/`。
+  - 優先使用帶有 Neon Glow 效果的 Logo 版本.
+  - 確保在深色背景上的可視性.
+  - **注意**：Logo 檔案位於 `../assets/`.
 
 ## 5. 格式標準
 
